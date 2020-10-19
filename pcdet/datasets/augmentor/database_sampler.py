@@ -5,7 +5,6 @@ import numpy as np
 from ...ops.iou3d_nms import iou3d_nms_utils
 from ...utils import box_utils
 
-
 class DataBaseSampler(object):
     def __init__(self, root_path, sampler_cfg, class_names, logger=None):
         self.root_path = root_path
