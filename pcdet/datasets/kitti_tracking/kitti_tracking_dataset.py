@@ -9,7 +9,7 @@ from ...utils import box_utils, calibration_kitti, common_utils, object3d_kitti
 from ..dataset import DatasetTemplate
 
 
-class KittiDataset(DatasetTemplate):
+class KittiTrackingDataset(DatasetTemplate):
     def __init__(self, dataset_cfg, class_names, training=True, root_path=None, logger=None):
         """
         Args:
